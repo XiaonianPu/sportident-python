@@ -29,6 +29,9 @@ Additions and modifications in sireader2.py compared to sireader.py:
 - Compatibility with Python 2 is probably no longer preserved.
 - Added sysval_ functions to access configuration data in SYS_VAL.
 
+Additions and modifications by Xiaonian Pu (danielxnpu):
+- porting to Python3.10+, replace all SIX references to native py310 built-in methods, decrease the built size of application
+
 ## Install
 
 For `macOS` users extra driver for SI station readout is necessary.
